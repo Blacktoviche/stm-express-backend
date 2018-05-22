@@ -1,0 +1,23 @@
+{
+  "name": "stm-express-backend",
+  "version": "0.0.1",
+  "description": "Simple Task Manager backend using Express and mongodb",
+  "main": "index.js",
+  "author": "Malek Tarboush",
+  "license": "MIT",
+  "homepage": "https://github.com/blacktoviche/stm-express-backend",
+  "scripts": {
+	"start": "node server.js",
+    "dev": "forever -w server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "forever": "^0.15.3",
+    "jsonwebtoken": "^8.2.1",
+    "mongodb": "^3.0.8",
+    "mongoose": "^5.1.0"
+  },
+  "devDependencies": {}
+}
